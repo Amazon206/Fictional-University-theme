@@ -14,6 +14,7 @@
   <?php
     $post = get_the_ID();
     $theparent = wp_get_post_parent_id($post); 
+    //check the blog section
     if(get_the_title($post)=="Blog"){
     /*
      * Template name: Blog section template
